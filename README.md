@@ -9,4 +9,6 @@
 
   5.[eventBus](https://github.com/lh8725473/js-knowledge/blob/master/eventBus.js "实现eventBus"),一个简单的eventBus.
 
-  5.[debounce](https://github.com/lh8725473/js-knowledge/blob/master/debounce.js "防抖函数"),防抖函数.
+  6.[debounce](https://github.com/lh8725473/js-knowledge/blob/master/debounce.js "防抖函数"),防抖函数.
+
+  7.[throttle](https://github.com/lh8725473/js-knowledge/blob/master/throttle.js "节流函数"),节流函数.
