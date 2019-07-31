@@ -8,3 +8,5 @@
   4.[new](https://github.com/lh8725473/js-knowledge/blob/master/newFunction.js "实现new关键字"),实现new关键字.
 
   5.[eventBus](https://github.com/lh8725473/js-knowledge/blob/master/eventBus.js "实现eventBus"),一个简单的eventBus.
+
+  5.[debounce](https://github.com/lh8725473/js-knowledge/blob/master/debounce.js "防抖函数"),防抖函数.
