@@ -30,16 +30,24 @@ class Promise {
     }
   }
 
-  then (resolveCb, rejectedCb) {
+  then (resolveCb) {
     switch(this.state){
       case 'fulfilled':
         resolveCb(this.value)
         return this
+      default:    
+    }
+    return this
+  }
+
+  catch (rejectedCb) {
+    switch(this.state){
       case 'rejected':
         rejectedCb(this.error)
         return this
-      default:    
+      default:
     }
+    return this  
   }
 
   finally (finallyCb) {
@@ -54,6 +62,8 @@ const pro1 = new Promise((resolve, rejected)=>{
 }).then(value => {
   console.log('resolve:' + value)
 }, error => {
+  console.log('rejected' + error)
+}).catch(error => {
   console.log('rejected' + error)
 }).finally((value, error) => {
   console.log('resolve:' + value)
